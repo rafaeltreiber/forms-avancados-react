@@ -53,7 +53,7 @@ function App() {
 
   }
 
-  function createUser(data: any) {
+  function createUser(data: createUserFormData) {
     setOutput(JSON.stringify(data, null, 2));
 
   }
